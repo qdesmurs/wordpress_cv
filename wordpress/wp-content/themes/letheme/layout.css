@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+h4 {
+    height: 1.5em;
+}
+h4 a, h4 a:visited {
+    text-decoration: none;
+    color: blue;
+}
+h4 a:hover {
+    color: violet;
+}
+#edit {
+    color: grey;
+    font-weight: lighter;
+}
+#edit:hover {
+    font-size: 1.5em;
+}
+h4 a.tag {
+    color: red;
+}
+h4 a.tag:hover {
+    color: orange;
+}
+#content #primary main article, #content #primary main article .entry-content {
+    margin: 0;
+}
+#site-navigation div ul li {
+    display: none;
+}
+header img {
+    float: left;
+    border-radius: 50%;
+    margin-left: 15em;
+}
+header .site-branding {
+    margin-right: 25em;
+}
+header .site-branding .site-title a {
+    color: white;
+}
+header .site-branding .site-description {
+    font-size: 2em;
+    margin: 0;
+}
+#masthead {
+    background-color: black;
+    color: white;
+}
+#content {
+    width: 75%;
+    margin: auto;
+}
+main {
+    display: grid!important;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+section {
+    margin: 0 1em 1em 0;
+    border: 2px solid black;
+    padding: 2em;
+}
+#colophon {
+    margin-top: 4em;
+    height: 4.5em;
+    background-color: black;
+}
+#colophon .site-info {
+    margin: 1.5em;
+}
