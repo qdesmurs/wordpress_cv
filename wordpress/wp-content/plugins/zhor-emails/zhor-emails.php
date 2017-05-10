@@ -18,7 +18,7 @@ function zhor_emails_menu() {
 
 
 function zhor_emails(){
-    echo '<p>Hi m8</p>';
+    echo '<h1>Hi m8</h1>';
     echo '<a href="'.get_site_url().'/wp-content/plugins/zhor-emails/save_mails.php">Download Emails</a>';
 
     echo '<table border="1">';
