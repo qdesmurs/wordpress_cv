@@ -1,0 +1,111 @@
+/*
+Theme Name: CV2
+Author: ZHOR
+Description: YOLO THEME
+Version: 3151531213.115516531
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.me {
+    margin-bottom: 2em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+h4 {
+    height: 1.5em;
+}
+h4 a, h4 a:visited {
+    text-decoration: none;
+    color: blue;
+}
+h4 a:hover {
+    color: violet;
+}
+#edit {
+    color: grey;
+    font-weight: lighter;
+}
+#edit:hover {
+    color: darkslategrey;
+}
+h4 a.tag {
+    color: red;
+}
+h4 a.tag:hover {
+    color: orange;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+section {
+    margin: 0 1em 1em 0;
+    border: 2px solid black;
+    padding: 1em;
+}
+h2 {
+    margin-bottom: 1em;
+}
+#colophon {
+    margin-top: 4em;
+    height: 4.5em;
+    background-color: black;
+}
+#colophon .site-info {
+    margin: 1.5em;
+}
+
+/*lenny face*/
+
+.case {
+    margin: 3em auto auto;
+    height: 150px;
+    width: 250px;
+}
+
+#lenny {
+    font-size: 50px;
+    animation: flip 10s infinite;
+}
+
+@keyframes flip {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(36000deg);
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 799px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        max-width:280px;
+        width:280px;
+        padding:0;
+    }
+    section {
+        width: 85%;
+        margin: 7.5%;
+    }
+}
